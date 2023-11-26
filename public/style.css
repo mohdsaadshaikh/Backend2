@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f4f4f4; /* Light gray background  */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #2c3e50; /* Dark gray title color */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.email {
+  color: #555; /* Slightly darker text color */
+}
+
+.edit-form {
+  margin-top: 20px;
+}
+
+.username-input,
+.password-input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc; /* Light border color */
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.username-input:focus,
+.password-input:focus {
+  outline: none;
+  border-color: #3498db; /* Highlight border color on focus */
+}
+
+.edit-button {
+  background-color: #3498db; /* Blue edit button */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Outfit", sans-serif;
+}
+
+.edit-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ecf0f1;
+  padding: 12px;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.user-count {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.join-button {
+  background-color: #27ae60; /* Green join button */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: #219d49; /* Darker green on hover */
+}
+
+/* Additional styles */
+.edit-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.edit-form label,
+.edit-form button {
+  font-size: 16px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styles for user.html */
+.user-table tr:hover {
+  background-color: #dddddd;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #3498db;
+  font-size: 24px;
+  margin: 0;
+}
+
+.user-count {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.join-button {
+  background-color: #27ae60;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Outfit", sans-serif;
+}
+
+.join-button:hover {
+  background-color: #219d49;
+}
+
+.join-button > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+/* Additional styles */
+.footer p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* ... Your existing styles ... */
+
+/* ... Your existing styles ... */
+.navbar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo > a {
+  font-size: 26px;
+  font-weight: bold;
+  color: #219d49;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #27ae60;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #208349;
+}
+
+.cta-button {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cta-button:hover {
+  background-color: #219d49;
+}
+
+.navbar > .container .join {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ... Your existing styles ... */
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    .user-table {
+        font-size: 14px;
+        overflow-x: auto; /* Enable horizontal scrolling on small screens */
+      }
+    
+      th, td {
+        white-space: nowrap; /* Prevent text wrapping in cells */
+      }
+    
+      .user-table thead {
+        display: none; /* Hide the table header on small screens */
+      }
+    
+      .user-table tr {
+        display: block;
+        margin-bottom: 15px;
+      }
+    
+      .user-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        padding: 10px;
+      }
+  
+    .navbar > .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-links {
+      margin-top: 15px;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .cta-button {
+      width: 100%;
+    }
+  
+    .footer p {
+      font-size: 12px;
+    }
+}
+  
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      padding: 10px 0;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .cta-button {
+      width: 100%;
+    }
+  
+    .footer p {
+      font-size: 12px;
+    }
+  }
+  
+  /* ... Your existing styles ... */
+  
